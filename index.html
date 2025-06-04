@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Copilot Quiz 2025</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 GitHub Copilot Quiz</h1>
+            <p>Test your knowledge about GitHub Copilot's latest features in 2025!</p>
+        </header>
+        
+        <div id="quiz-container">
+            <div class="quiz-header">
+                <div id="question-counter">
+                    Question <span id="current-question">1</span> of <span id="total-questions">10</span>
+                </div>
+                
+                <div id="score-display">
+                    Score: <span id="score">0</span> / <span id="total-score">10</span>
+                </div>
+            </div>
+            
+            <div id="question-container">
+                <h2 id="question-text"></h2>
+                <div id="options-container"></div>
+            </div>
+            
+            <div id="feedback" class="hidden">
+                <div id="feedback-content">
+                    <p id="feedback-text"></p>
+                    <p id="explanation-text"></p>
+                </div>
+                <button id="next-btn">Next Question</button>
+            </div>
+            
+            <div id="final-results" class="hidden">
+                <h2>🎉 Quiz Complete!</h2>
+                <div id="final-score-container">
+                    <p id="final-score"></p>
+                    <p id="performance-message"></p>
+                </div>
+                <button id="restart-btn">Take Quiz Again</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
